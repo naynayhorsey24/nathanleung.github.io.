@@ -1,0 +1,366 @@
+h1 {
+  color: white;
+}
+
+h2 {
+  margin-left: 300px;
+  text-align: center;
+  margin-right: auto;
+  width: 50%;
+  color: gold;
+  font-weight: bold;
+}
+
+#new-tab {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #b91bd4;
+  color: #fff;
+  padding: 15px;
+}
+
+
+#Profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+  height: 240px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+#fire-image {
+  position: absolute; /* set the position of the gif to absolute */
+  top: 100px;
+  left: 200px;
+  width: 200px;
+  height: 200px;
+  z-index: 1; /* set a z-index value higher than the background image */
+  background-attachment: fixed;
+}
+
+#fire2-image {
+  position: absolute; /* set the position of the gif to absolute */
+  top: 100px;
+  right: 200px;
+  width: 200px;
+  height: 250px;
+  z-index: 1; /* set a z-index value higher than the background image */
+  background-attachment: fixed;
+}
+
+#spidey {
+  animation: move-left 8s linear infinite;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+
+@keyframes move-left {
+  from {right: 0;}
+  to {right: 100%;}
+}
+
+
+#Captain {
+  animation: cap 10s linear infinite;
+  position: absolute;
+  top: 595px;
+  right: -100px;
+  width: 120px;
+  height: 120px;
+  z-index: 2;
+ 
+}
+
+@keyframes cap {
+  0% {
+    right: -20;
+  }
+  50% {
+    right: 100%;
+  }
+  55% {
+    right: 100%;
+    
+  }
+  100% {
+    right: 100%;
+ 
+  }
+}
+
+
+
+
+
+
+
+
+#Cap {
+  display: block;
+  margin-left: auto;
+  margin-right: 220px;
+  width: 260px;
+  height: 260px;
+  margin-top: -240px;
+
+}
+
+
+#ball {
+  display: block;
+  margin-left: 40px;
+  margin-right: auto;
+  width: 260px;
+  height: 300px;
+  margin-top: -280px;
+  border-radius: 40%;
+
+}
+
+
+
+#SCE {
+  display: block;
+  margin-left: auto;
+  margin-right: 220px;
+  width: 230px;
+  height: 150px;
+  margin-top: -350px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+#Map {
+  display: block;
+  margin-left: 35px;
+  margin-right: auto;
+  width: 260px;
+  height: 165px;
+  margin-top: -160px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+  border-radius: 50%;
+}
+
+
+#ibec {
+  display: block;
+  margin-left: auto;
+  margin-right: 150px;
+  width: 320px;
+  height: 170px;
+  margin-top: -360px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+#itc {
+  display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  width: 270px;
+  height: 180px;
+  margin-top: -180px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+
+#win {
+  display: block;
+  margin-left: auto;
+  margin-right: 190px;
+  width: 270px;
+  height: 300px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+
+#Cohost {
+  display: block;
+  margin-left: 50px;
+  margin-right: auto;
+  width: 320px;
+  height: 210px;
+  margin-top: -180px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+#prof {
+  display: block;
+  margin-left: auto;
+  margin-right: 200px;
+  width: 320px;
+  height: 220px;
+  margin-top: -210px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+#shake {
+  display: block;
+  margin-left: auto;
+  margin-right: 250px;
+  width: 310px;
+  height: 250px;
+  margin-top: -20px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+
+#akpsi {
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  width: 400px;
+  height: 250px;
+  margin-top: -250px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+
+
+#missa {
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+  width: 160px;
+  height: 250px;
+  margin-top: -250px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+
+#boys {
+  display: block;
+  margin-left: 660px;
+  margin-right: auto;
+  width: 380px;
+  height: 250px;
+  margin-top: -250px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.815);
+}
+
+
+
+a {
+  color: rgb(211, 192, 25); /* default link color */
+}
+
+a:hover {
+  color: rgb(71, 192, 27); /* link color when hovered over */
+}
+
+a:visited {
+  color: rgb(205, 185, 34); /* link color when visited */
+}
+
+
+
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: auto;
+  width: 50%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px; 
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6b25c7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+#aboutme-section {
+  background-color: rgb(183, 75, 234);
+  width: 110%;
+  height: 1000px;
+  position: absolute;
+  top: 700px;
+  z-index: 1;
+  padding: 50px 0;
+  opacity: 1;
+}
+
+#projects-section {
+  background-color: rgb(121, 54, 152);
+  width: 110%;
+  height: 4000px;
+  position: absolute;
+  top: 1100px;
+  z-index: 1;
+  padding: 50px 0;
+  opacity: 1;
+}
+
+#Experience-section {
+  background-color: rgb(222, 42, 117);
+  width: 110%;
+  height: 600px;
+  position: absolute;
+  top: 2500px;
+  z-index: 1;
+  padding: 50px 0;
+  opacity: 1;
+}
+
+#skills-section {
+  background-color: rgb(223, 137, 8);
+  width: 110%;
+  height: 400px;
+  position: absolute;
+  top: 3100px;
+  z-index: 1;
+  padding: 50px 0;
+  opacity: 1;
+}
+
+#new {
+  background-image: url("/Users/nathanlleung/Desktop/me.jpg");
+  position: absolute;
+  top: 3500px;
+  z-index: 1;
+  padding: 50px 0;
+  opacity: 1;
+  display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+  background-position: center;
+}
+
+
+#cbarn {
+  background-image: url("/Users/nathanlleung/Desktop/cbarn.jpg");
+  position: absolute;
+  top: 4310px;
+  z-index: 1;
+  padding: 50px 0;
+  opacity: 1;
+  display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+  background-position: center;
+}
